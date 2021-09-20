@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   @media (max-width: 962px) {
     // backgorund for mobile
     background-image: url(${(props) => props.mobile});
+  }
 
   @media (max-width: 768px) {
     // backgorund for mobile
@@ -59,8 +60,11 @@ export const Button = styled.button`
 
   @media (max-width: 1026px) {
     //mobile
-    left: 20px;
-    bottom: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+}
   }
 `
 
