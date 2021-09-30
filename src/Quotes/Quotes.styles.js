@@ -64,7 +64,6 @@ export const Button = styled.button`
     bottom: 0;
     width: 100%;
     right: 0;
-}
   }
 `
 

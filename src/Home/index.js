@@ -30,14 +30,6 @@ const Home = () => {
     // prevent set interval on load
     fetchQuotes()
   }, [])
-  useEffect(() => {
-    // set time interval to fetch the quotes
-    const interval = setInterval(() => {
-      fetchQuotes()
-    }, 5000)
-    // clear the interval on unmount
-    return () => clearInterval(interval)
-  }, [])
 
   return (
     <>
